@@ -3,11 +3,15 @@
 ***
 
 ## 导读
-Firefly团队技术学习月报第一期，今后将每月定时更新。本期内容包括Android开发中图片加载的内存优化及WebView资源拦截解析研究；iOS内容包括iOS设备表示演进过程、iOS工程添加cordova并实现自定义JS插件研究，以及iOS自动打包相关问题总结；前端内容包括React组件通信相关研究及Cordova源码解读；后端内容包括Java编码相关问题总结、MapReduce工作原理研究及Lambda与匿名类比较等。
+Firefly团队技术学习月报第一期，今后将每月定时更新。本期内容包括移动应用数据采集方案研究、Android开发中图片加载的内存优化及WebView资源拦截解析研究、iOS内容包括iOS设备表示演进过程、iOS工程添加cordova并实现自定义JS插件研究，以及iOS自动打包相关问题总结；前端内容包括React组件通信相关研究及Cordova源码解读；后端内容包括Java编码相关问题总结、MapReduce工作原理研究及Lambda与匿名类比较等。
 
 ***
 
-## Android开发
+## 客户端开发
+
+[应用数据采集](http://blog.csdn.net/qq309909897/article/details/52512733)
+
+大数据的基础是数据，所以数据采集已经成为所有应用的标配，不管是Android、iOS还是web应用。目前，常用的应用数据采集手段有代码埋点和无代码埋点两种。本文主要介绍着两种数据采集的技术原理和优缺点。
 
 [图片加载库的内存注意事项](https://github.com/yanbo200303/studynotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.md) @yanbo
 
@@ -16,10 +20,6 @@ Firefly团队技术学习月报第一期，今后将每月定时更新。本期内容包括Android开发中图片
 [WebView资源拦截解析](https://wangzzzz.github.io/html/1/webview.html) @wangzhe
 
 本文主要研究了使用Android WebView组件时，不同的请求所经过的不同方法，同时，讲解了对WebView资源、请求的拦截以及资源本地化缓存。
-
-***
-
-## iOS开发
 
 [iOS设备标识演进](http://kmplayer.iteye.com/blog/2323188) @wenyanjie
 
