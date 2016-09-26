@@ -27,6 +27,6 @@
 
 ## 外部专家投稿
 
-[微信小程序调研](http://www.jianshu.com/p/8046c474ffad) @sunchongrui
+[微信小程序调研](http://www.jianshu.com/p/1a5b1b5c2e4d) @sunchongrui
 
 小程序的本质是第三方开发者将前端展示交互层以微信的标准发布到腾讯云服务，为了达到更加丰富的效果，腾讯提供了丰富的组件和API。按照上面的理解，微信小程序同苹果的App Store如出一辙，只是使用的技术不同，App Store是第三方客户端运行在苹果的操作系统中，而小程序是第三方页面运行在腾讯的微信APP中。
