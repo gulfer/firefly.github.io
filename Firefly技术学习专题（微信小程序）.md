@@ -19,7 +19,7 @@
 
 ## iOS客户端
 
-[微信“小程序”与React猜想](http://www.jianshu.com/p/8046c474ffad) @wenyanjie
+[微信“小程序”与React猜想](http://www.jianshu.com/p/8046c474ffad) @wenyanjie @zhuhongfei
 
 小程序与传统web页面的主要区别在于，web页面是完全运行在客户端的浏览器环境下，小程序则更多地依赖于本地组件，例如调用本地视图类来显示内容，而不是通过浏览器来渲染。目前由于微信小程序还处于内测阶段，现在对其原理细节还不太清楚，但现在已经有很多网络大咖指出微信小程序应该是使用或借鉴了React Native的来实现的。本文则主要对React Native iOS的实现原理进行一定的分析。
 
