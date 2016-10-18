@@ -8,7 +8,7 @@
 
 [几种Android截屏方法](http://blog.csdn.net/qq309909897/article/details/52845312) @huwenan
   
-  目前自动化测试和无码数据采集都用到了一项技术：截屏。通过截屏并在远端进行绘制和播放，这样用户便可以在远端点选测试点和采集点，进而生成相关的测试脚本和采集集信息。本文介绍几个最近了解到的android截屏方法。
+  目前自动化测试和无码数据采集都用到了一项技术：截屏。通过截屏并在远端进行绘制和播放，这样用户便可以在远端点选测试点和采集点，进而生成相关的测试脚本和采集信息。本文介绍几个最近了解到的android截屏方法。
 
 [单例模式和Fluent Interface在SDK开发中的应用](https://github.com/yanbo200303/studynotes/blob/master/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E5%92%8CFluent%20Interface%E5%9C%A8SDK%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.md) @yanbo
   
