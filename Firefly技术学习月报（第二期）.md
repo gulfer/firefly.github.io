@@ -34,7 +34,7 @@
 
 [JavaScript原型解析](https://github.com/rayswim/blog/blob/master/src/JavaScript%E5%8E%9F%E5%9E%8B%E8%A7%A3%E6%9E%90.md) @leishuanglong
   
-  本文对JavaScript中的prototype及__proto__做了详细的解读，在JavaScript中一切皆对象，每个对象都有__proto__指向了其原型对象，每个函数又包含一个prototype属性。prototype也是一个对象，其中包含constructor属性和__proto__。JavaScript通过__proto__从null到对象间形成了一条原型链，每个对象都可以使用其上层原型对象的属性和方法。
+  本文对JavaScript中的prototype及\__proto\__做了详细的解读，在JavaScript中一切皆对象，每个对象都有\__proto\__指向了其原型对象，每个函数又包含一个prototype属性。prototype也是一个对象，其中包含constructor属性和\__proto\__。JavaScript通过\__proto\__从null到对象间形成了一条原型链，每个对象都可以使用其上层原型对象的属性和方法。
 
 [React组件数据存储方式](https://github.com/gingermount/gingermount.github.io/blob/master/React%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F.md) @jiangshan
   
