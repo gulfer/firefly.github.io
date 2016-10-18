@@ -50,7 +50,7 @@
   
   本文对Spring Boot的基本用法进行了描述。
 
-[区块链运行机制简介](http://blog.csdn.net/gloria_dandan/article/details/52844822) @zhengyidan
+[区块链运行机制简介](http://blog.csdn.net/gloria_dandan/article/details/52844822) @zhangyidan
   
   区块链是这两年来无论在技术界还是金融界都非常热门的一个概念，但是其本身涉及很多艰深的算法，学习起来也比较费劲。本文力图用比较简明的介绍区块链技术以及区块链的运行机制。
 
