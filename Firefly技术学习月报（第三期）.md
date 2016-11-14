@@ -50,9 +50,9 @@
   
   Firefly Server是Firefly服务端过滤器框架，本文我们将对框架中使用的一些设计模式进行介绍和分析。
 
-[]() @zhangyidan
+[Hadoop学习笔记二 - kNN算法实现用户风险分类](http://blog.csdn.net/gloria_dandan/article/details/53156333) @zhangyidan
   
-  
+  在银行这个极其庞杂的交易体系中，每天都能收集到大量的用户信息和用户数据。而伴随着我国利率市场化的不断深化，净利差的迅速收窄，各大银行都希望利用手头的大量用户信息和实时产生的用户数据，对用户进行深度分析挖掘以便进行风险管控和个性化营销，降低银行的运营成本，提升获利空间。本文利用机器学习算法中最简单的kNN算法，也称k-近邻算法，在Hadoop中实现用户的风险等级的分类，以便向用户推荐符合其风险承受能力范围内的产品，也便于对用户进行风险管控。
 
 [Spring Cloud体系简介](https://github.com/gulfer/gulfer.github.io/blob/master/SpringCloudOverview.md) @yangzhao
   
