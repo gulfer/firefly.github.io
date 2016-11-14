@@ -26,7 +26,7 @@
   
   iOS中制作单个静态库十分容易，但是如果工程中使用的静态库之间有依赖关系或者需要将多个静态库进行统一管理，该如何处理呢? 本文介绍了在制作静态库过程中经常用到的的XCode基本配置说明，并通过这些配置来实现自定义的静态库输出路径，从而实现多个静态库的统一管理。
 
-[iOS UIButton与函数式编程](http://www.jianshu.com/p/f0809b190cc6) @zhuhongfei
+[iOS UIButton与函数式编程](http://www.jianshu.com/p/f0809b190cc6) @zhuhongfei
   
   函数式编程是iOS当中一个非常重要的编程思想，Block是iOS实现函数式编程的基础。本文从UIButton的函数式编程设计，介绍了Block相关的基础知识。
 
