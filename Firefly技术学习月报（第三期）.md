@@ -32,9 +32,9 @@
 
 ## 前端开发
 
-[]() @leishuanglong
+[移动端Web开发那些坑](https://github.com/rayswim/blog/blob/master/src/%E7%A7%BB%E5%8A%A8%E7%AB%AFWeb%E5%BC%80%E5%8F%91%E9%82%A3%E4%BA%9B%E5%9D%91.md) @leishuanglong
   
-  
+  最近笔者在进行一项移动端Web开发的工作遇到了一些移动端特有的问题，并且其他部门的同事在开发移动端Web遇到了一些问题也向笔者进行求助。为此，笔者特地将最近遇到的一些问题和解决方案总结出来，供以后进行参考。
 
 [React “双向”数据绑定](https://github.com/gingermount/gingermount.github.io/blob/master/React%20%E2%80%9C%E5%8F%8C%E5%90%91%E2%80%9D%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.md) @jiangshan
   
