@@ -2,7 +2,7 @@
 
 ## 导读
 
-本期内容包括搭建Android持续构建和自动化测试平台、Android热修复方案介绍、Cordova-Android源码分析系列之JS调用Native研究，以及iOS方面iOS10及XCode8适配问题汇总、iOS自定义库输出实现统一管理研究、iOS UIButton与函数式编程，前端方面包括移动端Web开发那些坑、React “双向”数据绑定、Using context in reactjs，后端方面包括Firefly框架设计模式分析、Hadoop学习笔记之kNN算法实现用户风险分类以及Spring Cloud框架体系介绍。
+本期内容包括搭建Android持续构建和自动化测试平台、Android热修复方案介绍、Cordova-Android源码分析系列之JS调用Native研究，以及iOS方面iOS10及XCode8适配问题汇总、iOS自定义库输出实现统一管理研究、iOS UIButton与函数式编程，前端方面包括移动端Web开发那些坑、React“双向”数据绑定、Using context in reactjs，后端方面包括Firefly框架设计模式分析、Hadoop学习笔记之kNN算法实现用户风险分类以及Spring Cloud框架体系介绍。
 
 ## 客户端开发
 
