@@ -2,7 +2,7 @@
 
 ## 导读
 
-本期内容包括Android自定义相机拍照功能的实现方法、Android应用安装包size优化方法总结、Android自定义view之本地图形验证码实现方法，iOS客户端方面包括iOS旋屏开发实践分享、iOS指令集总结以及iOS逆向工程步骤总结，前端部分包括前端异步编程介绍、前端频繁出发事件的性能优化方法以及如何绘制1px边框的方法介绍，后端内容包括static关键字的执行逻辑、Hadoop学习笔记三之决策树算法实现用户风险等级分类，最后谈了谈对架构的理解。
+本期内容包括Android自定义相机拍照功能的实现方法、Android应用安装包size优化方法总结、Android自定义view之本地图形验证码实现方法，iOS客户端方面包括iOS旋屏开发实践分享、iOS指令集总结以及iOS逆向工程步骤总结，前端部分包括前端异步编程介绍、前端频繁出发事件的性能优化方法以及如何绘制1px边框的方法介绍，后端内容包括Java类加载及初始化剖析、Hadoop学习笔记三之决策树算法实现用户风险等级分类，最后谈了谈对架构的理解。
 
 ## 客户端开发
 
@@ -46,7 +46,7 @@
 
 ## 后端开发
 
-[static引发的类加载](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Static%E5%BC%95%E5%8F%91%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD.md) @zhengmiao
+[Java类加载及初始化剖析](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96%E5%89%96%E6%9E%90.md) @zhengmiao
   
   本文从关键词static入手，延伸出对类加载机制及类初始化的剖析。
 
