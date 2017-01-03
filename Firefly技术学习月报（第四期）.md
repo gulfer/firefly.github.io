@@ -2,7 +2,7 @@
 
 ## 导读
 
-本期内容包括
+本期内容包括Android自定义相机拍照功能的实现方法、Android应用安装包size优化方法总结、Android自定义view之本地图形验证码实现方法，iOS客户端方面包括iOS旋屏开发实践分享、iOS指令集总结以及iOS逆向工程步骤总结，前端部分包括前端异步编程介绍、前端频繁出发事件的性能优化方法以及如何绘制1px边框的方法介绍，后端内容包括static关键字的执行逻辑、Hadoop学习笔记三之决策树算法实现用户风险等级分类，最后谈了谈对架构的理解。
 
 ## 客户端开发
 
@@ -42,20 +42,20 @@
 
 [如何做出真正的1px边框](https://github.com/ToBeNumerOne/blog/blob/master/border.md) @chengchen
   
-  由于retina屏的出现以及移动技术的发展,导致css中定义的1px边框会在retina设备上显示变粗.本文针对此问题,介绍如何在retina屏或者devicePixelRatio不等于1的屏幕上展示1px的边框。
+  由于retina屏的出现以及移动技术的发展，导致css中定义的1px边框会在retina设备上显示变粗。本文针对此问题，介绍如何在retina屏或者devicePixelRatio不等于1的屏幕上展示1px的边框。
 
 ## 后端开发
 
-[]() @zhengmiao
+[static引发的类加载](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Static%E5%BC%95%E5%8F%91%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD.md) @zhengmiao
   
-  F
+  本文从关键词static入手，延伸出对类加载机制及类初始化的剖析。
 
 [Hadoop学习笔记三 — 决策树算法实现用户风险等级分类](http://blog.csdn.net/gloria_dandan/article/details/53983811) @zhangyidan
   
   刚刚过去的2016年被称为人工智能的元年，在AlphaGo大战李世石取得里程碑式的胜利后，神经网络和深度学习的概念瞬间进入了人们的视野，各大商业巨头也纷纷将自己的目标转移到这个还没有任何明确方向但所有人都知道它一旦出手将改变世界的人工智能方向中。在这个过程中，人们也突然发现在过去几年大数据存储技术和硬件处理能力不断发展，而产出却有限，主要是面对如此纷繁复杂的数据，人们却不知道如何利用。答案就在那里，却不知道如何寻找答案。所以数据挖掘、机器学习的算法的学习和研究又成了高度热门的话题。本文继上一篇博客中研究的KNN算法，对机器学习中另一个比较简单的算法 – 决策树算法进行学习和研究。KNN算法是基于节点之间的欧式距离进行分类，算法简单易懂，比较大的缺陷是计算量比较大而且无法给出数据的内在含义，而决策树算法相对而言在数据内在含义方面有比较大的优势，得到的结果也容易在业务上被理解。
 
-[]() @yangzhao
+[聊聊架构](https://github.com/gulfer/gulfer.github.io/blob/master/Architecture.md) @yangzhao
   
-  本文
+  本文从软件开发和团队管理两方面，探讨架构的意义和对架构的理解。
 
 
