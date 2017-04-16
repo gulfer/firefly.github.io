@@ -28,10 +28,6 @@
 
 ## 前端
 
-[]() @雷双龙
-  
-  。
-
 [ES2016及ESNext语法前瞻](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/ESNext.md?from=singlemessage&isappinstalled=0) @李庭瑞
   
   本文将通过截取ESNext目前一些具有代表性的新语法，提前预告一下近几年Javascript语言规范、新语言特性的走向。。
