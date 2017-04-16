@@ -10,52 +10,48 @@
 
 ## 客户端
 
-[Android静态代码扫描-自定义规则](http://blog.csdn.net/qq309909897/article/details/62219479) @胡稳安
+[Android：获取应用基本信息](http://blog.csdn.net/qq309909897/article/details/70186666) @胡稳安
   
-  Android。
+  对于应用管理或者应用市场类的平台，一定需要统计应用的各种基本信息，以便对应用进行审核和管理。主要的基本信息包括应用名称、icon图标、版本号、包名、权限、签名文件摘要信息等。本文介绍两种获取应用基本信息的方法，一种基于源代码，另一种基于apk文件。
 
-[移动应用数据采集](https://github.com/yanbo200303/studynotes/blob/master/data_collection/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.md) @闫波
+[Android应用冷启动速度优化](https://github.com/yanbo200303/studynotes/blob/master/Android%E5%BA%94%E7%94%A8%E5%86%B7%E5%90%AF%E5%8A%A8%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96.md) @闫波
   
-  随着。
+  有很多Android应用在首次启动时经常会出现现黑屏、白屏或者首帧出现慢的现象，本文就冷启动的速度优化进行探讨。
 
-[iOS中HTTPS证书验证浅析](http://www.jianshu.com/p/b909a9223c3b) @温彦杰
+[Swift可选值(Optional Values)介绍：?和!使用总结](http://www.jianshu.com/p/7a320ebaaecb) @温彦杰
   
-  本文。
+  本文重点介绍了swift语言中的一个全新特性可选值类型(Optional Values)，结合实例总结了'？'和'！'等语法的使用场景和注意事项。
 
-[使用JAVA爬取北京豆瓣租房小组租房信息](https://wangzzzz.github.io/html/5/index.html) @王哲
+[爬取链家房源信息](https://wangzzzz.github.io/html/6/index.html) @王哲
   
-  本文。
+  本文主要讲述了如何爬取链家房源信息，并使用MySql持久化存储信息，同时，分析了链家的登录、处理验证码等过程。
 
-[BeeHive框架实现原理分析](http://www.jianshu.com/p/7546ef8743b8) @朱宏飞
+[自定义BeeHive Module](http://www.jianshu.com/p/f8316a5a9663) @朱宏飞
   
-  BeeHive。
+  Beehive为模块化编程提供了一种优秀的设计思路，在设计iOS 应用框架时有很好的借鉴意义。本文仿照Beehive对webview 进行了模块化封装，应用在webview 的小功能例如 白名单，js bridge 都以单独模块的方式实现，通过宏注册模块，最大化解除了代码耦合程度。
 
 ## 前端
 
-[JavaScript关键字this](https://github.com/rayswim/blog/blob/master/src/this_in_javascript.md) @雷双龙
+[]() @雷双龙
   
-  在JavaScript中。
+  。
 
-[Apollo Mobile Framework With MobX](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/React-Mobx.md) @李庭瑞
+[ES2016及ESNext语法前瞻](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/ESNext.md?from=singlemessage&isappinstalled=0) @李庭瑞
   
-  这是。
+  本文将通过截取ESNext目前一些具有代表性的新语法，提前预告一下近几年Javascript语言规范、新语言特性的走向。。
 
-[浅谈HTTPS的安全](https://github.com/ToBeNumerOne/blog/blob/master/https-cookie-session.md) @程晨
+[ES6 Generator](https://github.com/ToBeNumerOne/blog/blob/master/generator.md) @程晨
   
-  本文。
+  Generator函数,作为es6推出的一种全新的函数,与普通的函数完全不同.它的基本特性使得它可以作为一种异步编程的解决方案.本文主要介绍Generator函数的基本用法以及它在异步编程时的使用方式。
 
 ## 后端
-
-[SpringBoot配置加载机制及扩展](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/SpringBoot%E9%85%8D%E7%BD%AE%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6%E5%8F%8A%E6%89%A9%E5%B1%95.md) @郑苗
-  
-  本文。
-
-[SQL性能优化－upper函数](http://www.jianshu.com/p/7b72b0e0d29b) @余进玉
-  
-  最近。
 
 [RateLimiter解析](https://github.com/gulfer/gulfer.github.io/blob/master/RateLimiter.md) @杨朝
   
   本文对Guava提供的流控工具RateLimiter进行了代码解析，并分析了令牌桶算法的原理及实现。
+
+[Spring源码解读：IoC容器初始化流程](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%EF%BC%9AIoC%E5%AE%B9%E5%99%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E6%B5%81%E7%A8%8B.md) @郑苗
+  
+  Spring通过IoC模式管理依赖关系，并将这些依赖关系注入到组件中，那么会让这些依赖关系的适配和管理更加灵活。本文从源码角度剖析Spring IoC容器初始化过程。
 
 
