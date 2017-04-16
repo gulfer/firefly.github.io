@@ -6,7 +6,7 @@
 
 不过我仍然要说，请老板们多给些安慰。。。
 
-本期重点内容涉及冷启动速度优化、Swift语法介绍、BeeHive实践、ES6相关介绍及流控工具RateLimiter解析。
+本期重点内容涉及冷启动速度优化、Swift语法介绍、BeeHive实践、ES6相关介绍及流控工具RateLimiter解析等。
 
 ## 客户端
 
