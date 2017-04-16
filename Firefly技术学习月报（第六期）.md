@@ -6,7 +6,7 @@
 
 不过我仍然要说，请老板们多给我们些安慰。。。
 
-本期重点内容涉及。
+本期重点内容涉及冷启动速度优化、Swift语法介绍、BeeHive实践、ES6相关介绍及流控工具RateLimiter解析。
 
 ## 客户端
 
@@ -21,10 +21,6 @@
 [Swift可选值(Optional Values)介绍：?和!使用总结](http://www.jianshu.com/p/7a320ebaaecb) @温彦杰
   
   本文重点介绍了swift语言中的一个全新特性可选值类型(Optional Values)，结合实例总结了'？'和'！'等语法的使用场景和注意事项。
-
-[爬取链家房源信息](https://wangzzzz.github.io/html/6/index.html) @王哲
-  
-  本文主要讲述了如何爬取链家房源信息，并使用MySql持久化存储信息，同时，分析了链家的登录、处理验证码等过程。
 
 [自定义BeeHive Module](http://www.jianshu.com/p/f8316a5a9663) @朱宏飞
   
@@ -53,5 +49,9 @@
 [Spring源码解读：IoC容器初始化流程](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%EF%BC%9AIoC%E5%AE%B9%E5%99%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E6%B5%81%E7%A8%8B.md) @郑苗
   
   Spring通过IoC模式管理依赖关系，并将这些依赖关系注入到组件中，那么会让这些依赖关系的适配和管理更加灵活。本文从源码角度剖析Spring IoC容器初始化过程。
+  
+[爬取链家房源信息](https://wangzzzz.github.io/html/6/index.html) @王哲
+  
+  本文主要讲述了如何爬取链家房源信息，并使用MySql持久化存储信息，同时，分析了链家的登录、处理验证码等过程。
 
 
