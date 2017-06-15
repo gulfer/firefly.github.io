@@ -2,23 +2,23 @@
 
 ## 编者序
 
-"Do 。
+《人类简史》告诉我们一个道理，人类社会所有大规模分工协作所依赖的秩序都是来源于虚构的想像，比如宗教、国家、人权、法律等等都是人们虚构出来的，这些虚构的事物却能够比武力等手段更加有效的促进协作。
 
-本期重点内容涉及Android Support Annotation简介、Swift Optional嵌套介绍、Brotli压缩算法及Paxos介绍等。
+本期重点内容涉及Android最新官方语言Kotlin简介、Swift编程经验介绍、测量和优化单页应用程序（SPA）渲染页面效率方案翻译及分布式事务介绍等。
 
 ## 客户端
 
-[Android Support Annotations简介](https://github.com/yanbo200303/studynotes/blob/master/Android%20Support%20Annotations%E7%AE%80%E4%BB%8B.md) @闫波
+[Kotlin学习笔记-环境搭建](https://github.com/yanbo200303/studynotes/blob/master/Kotlin_study/Kotlin%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) @闫波
   
-  Android。
+  在2017年5月的Google IO大会上，Google宣布Kotlin成为Android的官方语言，随后的2017年6月的TIOBE排行榜中，Kotlin就首次挤进了编程语言TOP50，可见Kotlin的爆发之迅速。作为一个Android开发者需要立刻学习这门新的语言，本文是Kotlin学习笔记的第一篇。
 
 [swift开发：map和flatMap使用](http://www.jianshu.com/p/3415844efdd9) @温彦杰
   
   本文基于源码实现和代码示例，深入介绍了Swift语言中map和flatmap的实现机制和使用注意事项，并进一步对Functor和Monad的设计概念作了基本介绍。
 
-[Android AIDL学习及使用](https://wangzzzz.github.io/html/7/index.html) @王哲
+[RecyclerView使用详解](https://wangzzzz.github.io/html/8/index.html) @王哲
   
-  本文。
+  本文详细讲解了RecyclerView的使用说明，包括RecyclerView的基本使用，添加头部、尾部布局，加载更多，添加、删除Item的动画，item的点击和长按事件的实现、分割线的实现等。
 
 [iOS 视图的核心—图层](http://www.jianshu.com/p/e3bbf45907b2) @朱宏飞
   
@@ -40,12 +40,12 @@
 
 ## 后端
 
-[Spring源码解读：IoC容器依赖注入](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%EF%BC%9AIoC%E5%AE%B9%E5%99%A8%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC%E5%8E%9F%E7%90%86.md) @郑苗
+[Spring源码解读：Spring及其设计模式](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%EF%BC%9ASpring%E5%8F%8A%E5%85%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md) @郑苗
   
-  本文。
+  本文从设计的角度去剖析Spring源码，从中学习Spring的代码架构及设计原则。
 
-[Paxos与分布式](https://github.com/gulfer/gulfer.github.io/blob/master/Paxos.md) @杨朝
+[分布式事务](https://github.com/gulfer/gulfer.github.io/blob/master/DistributedTransaction.md) @杨朝
   
-  本文。
+  本文结合支付宝相关材料讨论了分布式事务的几种实现思路。
 
 
