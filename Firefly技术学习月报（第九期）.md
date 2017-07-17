@@ -1,51 +1,51 @@
-# Firefly技术学习月报（第八期）
+# Firefly技术学习月报（第九期）
 
 ## 编者序
 
-《人类简史》给了我们一个启示：人类社会所有大规模分工协作所依赖的秩序都是来源于虚构的想像，比如宗教信仰、民主、自由、人权等等，而这些虚构的事物却能够有效的促进集体协作，并推动人类社会发展发展到今天。应用到更小的范围，比如在企业、部门，甚至是普通项目团队的运转过程中，是否虚构的一些观念也比现实的奖惩更加有效呢？如果是那么这些观念应该是什么？这是值得思考的问题。
+万维钢老师最近介绍了一本新书《端粒效应》，说的是人的寿命与端粒的长度有关系。端粒是染色体末端的DNA序列，每次细胞分裂端粒就会缩短，短到一定程度细胞也就不能分裂了，进而细胞、组织、器官也就步入衰退阶段。很有意思的是，端粒的长短跟一种叫“端粒酶”的酶的数量成正比，而压力会抑制机体制造这种酶，也就是说，总是持续一种高压力状态，是会折寿的。所以广大码农同胞，如果还想多活两年，想办法给自己减减压吧。
 
-本期重点内容涉及Android最新官方语言Kotlin简介、Swift编程经验介绍、测量和优化单页应用程序（SPA）渲染页面效率方案翻译及分布式事务介绍等。
+本期重点内容包括Kotlin学习笔记系列文章、iOS客户端数据存储使用总结、iOS网络请求缓存机制分析，以及前端技术ES8新特性一览等。
 
 ## 客户端
 
-[Kotlin学习笔记-环境搭建](https://github.com/yanbo200303/studynotes/blob/master/Kotlin_study/Kotlin%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) @闫波
+[Kotlin学习笔记-基本语法](https://github.com/yanbo200303/studynotes/blob/master/Kotlin_study/Kotline%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md) @闫波
   
-  在2017年5月的Google IO大会上，Google宣布Kotlin成为Android的官方语言，随后的2017年6月的TIOBE排行榜中，Kotlin就首次挤进了编程语言TOP50，可见Kotlin的爆发之迅速。作为一个Android开发者需要立刻学习这门新的语言，本文是Kotlin学习笔记的第一篇。
+  在2017年5月的Google IO大会上，Google宣布Kotlin成为Android的官方语言，随后的2017年6月的TIOBE排行榜中，Kotlin就首次挤进了编程语言TOP50，可见Kotlin的爆发之迅速。作为一个Android开发者需要立刻学习这门新的语言，本文是Kotlin学习笔记的第二篇，本篇讲讲Kotlin的基本语法。
 
-[swift开发：map和flatMap使用](http://www.jianshu.com/p/3415844efdd9) @温彦杰
+[iOS客户端开发数据存储使用总结](http://www.jianshu.com/p/d8b980b41de4) @温彦杰
   
-  本文基于源码实现和代码示例，深入介绍了Swift语言中map和flatmap的实现机制和使用注意事项，并进一步对Functor和Monad的设计概念作了基本介绍。
+  本文介绍了iOS客户端常用的数据存储技术，重点以Firefly_iOS为例，总结了这些数据存储技术的使用场景和相关使用经验。
 
-[RecyclerView使用详解](https://wangzzzz.github.io/html/8/index.html) @王哲
+[Android——一次选取本地相册多张图片](https://wangzzzz.github.io/html/4/index.html) @王哲
   
-  本文详细讲解了RecyclerView的使用说明，包括RecyclerView的基本使用，添加头部、尾部布局，加载更多，添加、删除Item的动画，item的点击和长按事件的实现、分割线的实现等。
+  本文详解了Android如何从本地相册选取图片，介绍了mvp模式，以及GridView使用过程中遇到的问题。
 
-[iOS 视图的核心—图层](http://www.jianshu.com/p/e3bbf45907b2) @朱宏飞
+[iOS 网络请求缓存机制分析](http://www.jianshu.com/p/1972754dc325) @朱宏飞
   
-  在iOS开发当中，我们所接触到的所有视图都继承来自UIView类。UIView在底层实现中将视图的绘制工作与触摸事件的响应进行了分离。UIView并不直接完成视图的绘制工作，它将视图的绘制交给了图层来完成。直接操作图层能够实现某些特殊的显示效果，本文将对图层的使用进行介绍。
-  
-[Android App加固原理分析](http://blog.csdn.net/qq309909897/article/details/73273964) @胡稳安
-  
-  对App进行加固，可以有效防止移动应用被破解、盗版、二次打包、注入、反编译等，保障程序的安全性、稳定性。对于金融类app，尤其重要。本文主要以dex加固为例介绍App加固的原理。
+  网络请求使用缓存技术可以有效地减少网络数据的交互量，缩短页面的加载时间。iOS提供了多种缓存策略来配置网络请求，使用正确的策略可以有效地减少服务器压力，提升用户体验。当然，如果我们明白缓存技术的原理后，我们完全可以根据需求自定义缓存策略。
 
 ## 前端
 
-[外文干货译制节选之 - 使用RUM度量和优化单页应用程序的性能](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/RUM-SPA-Optimization.md) @李庭瑞
+[[译]JavaScript Async/Await 秒杀 Promise 的6个理由（教学向）](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/RUM-SPA-Optimization.md) @李庭瑞
   
-  本文主要介绍LinkedIn测量和优化单页应用程序（SPA）渲染页面效率的方案。
+  处理异步请求一直是Javascript编程中重要的一环，但是随着技术的进步，处理的方法一直也在变化。本文将比较Async Await与Promise的优劣，阐述前者的优势。
 
-[javascript异步机制](https://github.com/ToBeNumerOne/blog/blob/master/js-async.md) @程晨
+[ES8 新特性一览](https://github.com/ToBeNumerOne/blog/blob/master/es8.md) @程晨
   
-  一道setTimeout面试题引发的对javascript异步机制、setTimeout运行机制的思考与说明。
+  本文主要介绍最新的Javascript版本（ES2017）的一些新特性。
 
 ## 后端
 
-[Spring源码解读：Spring及其设计模式](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%EF%BC%9ASpring%E5%8F%8A%E5%85%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md) @郑苗
+[DevOps学习心得](http://blog.csdn.net/qq309909897/article/details/75213780) @胡稳安
   
-  本文从设计的角度去剖析Spring源码，从中学习Spring的代码架构及设计原则。
+  DevOps狭义的概念是开发运维一体化，强调软件开发和运维团队之间更好的沟通协作，以便更快更高质量的软件交付。广义的讲，DevOps是一种文化，流程和实践，覆盖整个软件开发的全生命周期和所有干系人。强调项目经理、研发、测试和运维人员思维转变，更好的协作和更紧密的整合。通过自动化的流程，使得构建、测试、发布软件更加地快捷、频繁和可靠。最终的目的是提高软件质量、缩短交付周期，甚至于像工厂的流水线一样，扣动按钮，即可实现自动化的、持续的软件交付。
 
-[分布式事务](https://github.com/gulfer/gulfer.github.io/blob/master/DistributedTransaction.md) @杨朝
+[JDK动态代理原理](https://github.com/ZmRepo/ZmRepo.github.io/blob/master/JDK%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E5%8E%9F%E7%90%86.md) @郑苗
   
-  本文结合支付宝相关材料讨论了分布式事务的几种实现思路。
+  对于Spring的核心AOP来说，核心原理就是java的动态代理机制，而动态代理模式也是较常用的设计模式之一，了解它的实现原理有助于我们提高自身代码架构水平。本文以Java中的动态代理运行机制出发，推演其内部实现原理。
+
+[分库分表实践](https://github.com/gulfer/gulfer.github.io/blob/master/Zdal.md) @杨朝
+  
+  本文介绍了分库分表的常见思路及分库分表框架Zdal的使用示例。
 
 
