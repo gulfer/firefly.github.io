@@ -26,7 +26,7 @@
 
 ## 前端
 
-[[译]JavaScript Async/Await 秒杀 Promise 的6个理由（教学向）](https://github.com/BinaryDevil/Post2Share/blob/master/Technical/RUM-SPA-Optimization.md) @李庭瑞
+[[译]JavaScript Async/Await 秒杀 Promise 的6个理由（教学向）](http://www.jianshu.com/p/c5baedf1c66c?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends) @李庭瑞
   
   处理异步请求一直是Javascript编程中重要的一环，但是随着技术的进步，处理的方法一直也在变化。本文将比较Async Await与Promise的优劣，阐述前者的优势。
 
